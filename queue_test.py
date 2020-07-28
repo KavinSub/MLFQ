@@ -2,8 +2,6 @@ import unittest
 
 from queue import Queue
 
-
-
 class TestQueueMethods(unittest.TestCase):
     
     def test_length(self):

@@ -16,3 +16,10 @@ class Normal:
     
     def sample(self):
         return ceil(random.normalvariate(self.mean, self.variance))
+
+class Constant:
+    def __init__(self, constant):
+        self.constant = constant
+
+    def sample(self):
+        return self.constant

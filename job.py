@@ -11,6 +11,9 @@ class Job:
         runtime = min(time_slice, self.distribution.sample(), self.duration)
         self.duration -= runtime
         return runtime
+    
+    def done(self):
+        return self.duration == 0
 
     @staticmethod
     def randomIOJob():
