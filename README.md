@@ -1,1 +1,1 @@
-An implementation of a multi-level feedback queue (MLFQ) in python. More accurately, a simulation of a MLFQ.
+A basic implementation of a multi-level feedback queue (MLFQ) in python. I opted for the approach of simulating jobs.

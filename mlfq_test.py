@@ -5,7 +5,7 @@ from job import Job
 from mlfq import MLFQ
 
 class TestMLFQ(unittest.TestCase):
-    def test_1(self):
+    def test_basic_functionality(self):
         job_1 = Job(50, Constant(5))
         job_2 = Job(100, Constant(10))
 
